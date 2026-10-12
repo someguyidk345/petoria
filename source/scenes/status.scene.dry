@@ -97,7 +97,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="Chris and Meg Griffin">Chris and Meg</span>!} strength: [+ chrisandmeg_strength : strength +], dissent: [+ chrisandmeg_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Brian Griffin">Reformist</span>!} strength: [+ brian_strength : strength +], dissent: [+ brian_dissent : dissent +]
+{!<span class="tooltip-text" title="Brian Griffin">Brian</span>!} strength: [+ brian_strength : strength +], dissent: [+ brian_dissent : dissent +]
 
 {!<span class="tooltip-text" title="Stewie Griffin">Stewie</span>!} strength: [+ stewie_strength : strength +], dissent: [+ stewie_dissent : dissent +]
 
