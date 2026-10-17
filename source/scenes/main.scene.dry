@@ -6,8 +6,8 @@ on-arrival: {!
 Q.pinnedCardsDescription = 'Family advisors — each action advances one month.';
 !}
 
-- #advisor
 - @petoria_affairs
+- #advisor
 
 @main_easy
 set-bg: img/background.jpg
