@@ -17,3 +17,10 @@ Q.pinnedCardsDescription = 'Family advisors — each action advances one month.'
 !}
 
 - @petoria_affairs
+
+@petoria_affairs
+title: Petoria Affairs
+card-image: img/map_2.jpg
+is-deck: true
+
+- #petoria_affairs
