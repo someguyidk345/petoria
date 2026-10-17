@@ -1,0 +1,21 @@
+title: Establish the Administration
+new-page: true
+is-card: true
+tags: state_affairs
+frequency: 100
+view-if: petoria_mode = 1 and state_capacity < 90
+
+= A Government on Paper
+
+Petoria has a declaration, a flag, and a head of state. What it lacks is a reliable way to collect revenue, maintain records, or deliver basic services.
+
+- @create_office: Establish a small civil service.
+- @cut_corners: Run the state out of Peter's living room.
+
+@create_office
+on-arrival: month_actions += 1; state_capacity += 8; administrative_capacity += 6; petoria_treasury -= 3; legitimacy += 3
+A few basic offices begin keeping accounts and recording decisions. It is not glamorous, but the state becomes more capable.
+
+@cut_corners
+on-arrival: month_actions += 1; petoria_treasury += 2; state_capacity -= 3; legitimacy -= 2; family_satisfaction.peter += 3
+Peter keeps the bureaucracy small and the money close at hand. This saves money today and creates confusion tomorrow.

@@ -1,0 +1,26 @@
+title: The Family Compact
+new-page: true
+is-card: true
+tags: family_affairs
+frequency: 100
+view-if: petoria_mode = 1 and household_cohesion < 90
+
+= The Family Compact
+
+Independence was Peter's idea, but the whole household has to live with it. A little negotiation now may prevent a much larger argument later.
+
+- @lois_compromise: Let Lois set household priorities.
+- @peter_promise: Let Peter make a public show of unity.
+- @stewie_investment: Give Stewie resources for a national project.
+
+@lois_compromise
+on-arrival: month_actions += 1; household_cohesion += 8; family_satisfaction.lois += 8; family_satisfaction.peter -= 2; petoria_treasury -= 1
+Lois agrees to help organize daily life, provided the government remembers that a country still needs to be a home.
+
+@peter_promise
+on-arrival: month_actions += 1; public_image += 5; family_satisfaction.peter += 6; household_cohesion += 2; family_grievances.lois += 2
+Peter announces that the family stands united. The announcement is more convincing than the meeting that produced it.
+
+@stewie_investment
+on-arrival: month_actions += 1; state_capacity += 5; family_satisfaction.stewie += 8; petoria_treasury -= 2; household_cohesion -= 2
+Stewie receives a modest budget for research. The results are promising, and the accounting is already difficult to explain.

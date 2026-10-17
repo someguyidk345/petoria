@@ -6,7 +6,7 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Social Democracy: An Alternate History
+= Petoria: A Griffin Family State
 
 @start_menu_2
 
@@ -62,6 +62,25 @@ Q.dissent_percent = 5;
 
 // factions
 Q.factions = ['peter', 'lois', 'brian', 'chrisandmeg', 'stewie'];
+
+// Petoria state-management systems. Family factions are political stakeholders, not electoral parties.
+Q.petoria_mode = 1;
+Q.state_capacity = 35;
+Q.legitimacy = 20;
+Q.public_image = 15;
+Q.us_attention = 25;
+Q.us_hostility = 10;
+Q.household_cohesion = 60;
+Q.civilian_confidence = 50;
+Q.administrative_capacity = 20;
+Q.foreign_contacts = 0;
+Q.recognition_progress = 0;
+Q.border_tension = 10;
+Q.petoria_treasury = 8;
+Q.petoria_debt = 0;
+Q.petoria_crisis = 0;
+Q.family_satisfaction = { peter: 65, lois: 60, brian: 55, chrisandmeg: 60, stewie: 50 };
+Q.family_grievances = { peter: 0, lois: 0, brian: 0, chrisandmeg: 0, stewie: 0 };
 // should this be normalized to 100%?
 Q.peter_strength = 30;
 Q.peter_dissent = 0;
@@ -546,13 +565,9 @@ new-page: true
 
 This is a game of alternate history. While historical accuracy is a major concern, keep in mind that this is a *game*, and that any divergence from actual events will necessarily have to involve some element of make-believe. Nevertheless, please let the author know if there are any glaring mistakes.
 
-For more information on the politics and government of the German Republic, see the "Library" page on the top left. If this is your first time playing the game, it is strongly recommended that you read at least some of this information.
+Petoria is a fragile new state. Build its institutions, keep the Griffin household together, manage scarce resources, and decide how far to challenge the United States.
 
-- @1928_easy: Begin (easy difficulty)
-- @1928_main: Begin (normal difficulty)
-- @1928_hard: Begin (hard difficulty)
-- @1928_historical: Begin (historical mode)
-- @1928_custom: Customize difficulty settings
+- @1928_main: Declare Petoria independent
 
 @1928_easy
 on-arrival: difficulty = -1; resources = 4; dues = 3; starting_rb_strength = 2500; rb_strength = 2500; left_dissent = 10; kpd_relation = 29; z_relation = 54; dvp_relation = 49; starting_budget = 5; budget = 5; hand_size = 4; starting_dissent = 0; starting_relations = 0;
@@ -597,10 +612,10 @@ audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_
 new-page: true
 go-to: main if hand_size == 3; main.main_easy if hand_size == 4
 
-= 1928
+= July 2000
 
-Due to a technicality, the Griffin Residence was found to not be a part of the continental United States. Peter Griffin therefore officially seceded from the Union. The future of Petoria looks bright, we can achieve anything.
+Due to a technicality, the Griffin Residence was found not to be part of the continental United States. Peter Griffin has declared the sovereign state of Petoria. The declaration is not, by itself, enough to make a functioning country.
 
-Now, the task of Peter is to begin developing his nation and gain international recognition. Maybe they'll give us a front row seat at the UN.
+The treasury is nearly empty, the household is divided over what independence should mean, and Washington has yet to decide whether to laugh, negotiate, or intervene.
 
 
