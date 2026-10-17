@@ -4,13 +4,9 @@ is-special: true
 
 = Main
 
-[+ month : month +] [+ year +]
-
-Resources available: [+ resources +]
-
 Internal dissent: [+ dissent_percent : dissent +]%
 
-Family unity: [+ family_unity : percent +]%
+Family unity: [+ family_unity +]%
 
 Peter Griffin
 Dissatisfaction: [+ peter_dissent : dissent +]
