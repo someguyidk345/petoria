@@ -17,8 +17,8 @@ on-arrival: {!
 Q.pinnedCardsDescription = 'Family advisors — each action advances one month.';
 !}
 
-- #advisor
 - @petoria_affairs
+- #advisor
 
 @petoria_affairs
 title: Petoria Affairs
