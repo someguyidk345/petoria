@@ -16,10 +16,6 @@ max-cards: 4
 
 
 
-- @party
-- @govt
-- #advisor
-- @shuffle_leadership_pinned
 
 @main_easy
 set-bg: img/map_2.jpg
@@ -44,19 +40,3 @@ max-cards: 4
 - #advisor
 - @shuffle_leadership_pinned
 
-
-@party
-title: Family Affairs
-card-image: img/map_2.jpg
-is-deck: true
-
-- #family_affairs
-
-@govt
-title: State and Foreign Affairs
-view-if: time >= 6
-card-image: img/map_2.jpg
-is-deck: true
-
-- #state_affairs
-- #foreign_affairs
