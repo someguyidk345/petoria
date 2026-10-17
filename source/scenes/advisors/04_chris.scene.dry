@@ -2,6 +2,7 @@ title: Chris
 is-pinned-card: true
 tags: advisor
 view-if: chris_advisor = 1
+card-image: img/advisor_chris.jpg
 new-page: true
 
 = Chris
@@ -29,4 +30,3 @@ on-arrival: month_actions = 1; chris_strength += 2; chris_dissent -= 6; meg_diss
 Influence +2; Chris dissatisfaction −6; Meg dissatisfaction −2.
 
 - @root: Return to main
-
