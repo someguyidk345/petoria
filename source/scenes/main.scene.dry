@@ -18,8 +18,6 @@ max-cards: 4
 
 - @party
 - @govt
-- #advisor
-- @shuffle_leadership_pinned
 
 @main_easy
 set-bg: img/map_2.jpg
