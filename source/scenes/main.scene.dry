@@ -6,6 +6,7 @@ on-arrival: {!
 Q.pinnedCardsDescription = 'Family advisors — each action advances one month.';
 !}
 
+- #advisor
 - @petoria_affairs
 
 @main_easy
@@ -16,6 +17,7 @@ on-arrival: {!
 Q.pinnedCardsDescription = 'Family advisors — each action advances one month.';
 !}
 
+- #advisor
 - @petoria_affairs
 
 @petoria_affairs
