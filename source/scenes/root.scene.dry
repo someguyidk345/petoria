@@ -63,25 +63,8 @@ Q.dissent_percent = 5;
 // Family members whose dissatisfaction and influence contribute to internal dissent.
 Q.factions = ['peter', 'lois', 'brian', 'chrisandmeg', 'stewie'];
 
-// Petoria state-management systems. Family factions are political stakeholders, not electoral parties.
-Q.petoria_mode = 1;
-Q.state_capacity = 35;
-Q.legitimacy = 20;
-Q.public_image = 15;
-Q.us_attention = 25;
-Q.us_hostility = 10;
-Q.household_cohesion = 60;
+// Family unity starts at 100 and declines monthly in proportion to overall dissent.
 Q.family_unity = 100;
-Q.civilian_confidence = 50;
-Q.administrative_capacity = 20;
-Q.foreign_contacts = 0;
-Q.recognition_progress = 0;
-Q.border_tension = 10;
-Q.petoria_treasury = 8;
-Q.petoria_debt = 0;
-Q.petoria_crisis = 0;
-Q.family_satisfaction = { peter: 65, lois: 60, brian: 55, chrisandmeg: 60, stewie: 50 };
-Q.family_grievances = { peter: 0, lois: 0, brian: 0, chrisandmeg: 0, stewie: 0 };
 // should this be normalized to 100%?
 Q.peter_strength = 30;
 Q.peter_dissent = 0;
