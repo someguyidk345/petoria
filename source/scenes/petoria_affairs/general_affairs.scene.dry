@@ -1,0 +1,13 @@
+title: General Affairs
+new-page: true
+is-card: true
+tags: petoria_affairs
+card-image: img/map_2.jpg
+frequency: 1
+
+= General Affairs
+
+- @return: Return to Petoria Affairs
+
+@return
+go-to: main
