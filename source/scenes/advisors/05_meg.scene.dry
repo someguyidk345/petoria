@@ -2,6 +2,7 @@ title: Meg
 is-pinned-card: true
 tags: advisor
 view-if: meg_advisor = 1
+card-image: img/advisor_meg.jpg
 new-page: true
 
 = Meg
@@ -29,4 +30,3 @@ on-arrival: month_actions = 1; meg_strength += 3; meg_dissent -= 8; peter_dissen
 Influence +3; Meg dissatisfaction −8; Peter dissatisfaction +2.
 
 - @root: Return to main
-
