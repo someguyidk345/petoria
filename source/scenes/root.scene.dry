@@ -55,7 +55,7 @@ new-page: true
 
 > *“The unanimous Declaration of the sovereign state of Petoria, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.”*
 
-> - Peter Griffin, *The Declaration of Petoria*, 2000
+> - Peter, *The Declaration of Petoria*, 2000
 
 - @petoria_main: Declare Petoria independent
 
@@ -65,4 +65,4 @@ go-to: main if hand_size == 3; main.main_easy if hand_size == 4
 
 = July 2000
 
-Due to a technicality, the Griffin Residence was found not to be part of the continental United States. Peter Griffin has declared the sovereign state of Petoria. The declaration is not, by itself, enough to make a functioning country.
+Due to a technicality, the Griffin Residence was found not to be part of the continental United States. Peter has declared the sovereign state of Petoria. The declaration is not, by itself, enough to make a functioning country.
