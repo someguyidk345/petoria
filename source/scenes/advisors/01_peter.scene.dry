@@ -2,6 +2,7 @@ title: Peter
 is-pinned-card: true
 tags: advisor
 view-if: peter_advisor = 1
+card-image: img/advisor_peter.jpg
 new-page: true
 
 = Peter
@@ -29,4 +30,3 @@ on-arrival: month_actions = 1; peter_dissent -= 5; lois_dissent -= 3; meg_dissen
 Peter dissatisfaction −5; Lois dissatisfaction −3; Meg dissatisfaction +1.
 
 - @root: Return to main
-
