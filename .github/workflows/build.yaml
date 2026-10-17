@@ -43,6 +43,7 @@ jobs:
       - name: Copy images to output
         run: cp -r img out/html/img
       - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: 'out/html'
       - name: Deploy to GitHub Pages
