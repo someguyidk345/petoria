@@ -60,7 +60,7 @@ Q.dues = 2;
 Q.dissent = 0.05;
 Q.dissent_percent = 5;
 
-// factions
+// Family members whose dissatisfaction and influence contribute to internal dissent.
 Q.factions = ['peter', 'lois', 'brian', 'chrisandmeg', 'stewie'];
 
 // Petoria state-management systems. Family factions are political stakeholders, not electoral parties.
@@ -71,6 +71,7 @@ Q.public_image = 15;
 Q.us_attention = 25;
 Q.us_hostility = 10;
 Q.household_cohesion = 60;
+Q.family_unity = 100;
 Q.civilian_confidence = 50;
 Q.administrative_capacity = 20;
 Q.foreign_contacts = 0;
