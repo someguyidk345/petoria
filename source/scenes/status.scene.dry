@@ -8,26 +8,26 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 Family unity: [+ family_unity +]%
 
-Peter Griffin
+Peter
 Dissatisfaction: [+ peter_dissent : dissent +]
 Influence: [+ peter_strength : strength +]
 
-Lois Griffin
+Lois
 Dissatisfaction: [+ lois_dissent : dissent +]
 Influence: [+ lois_strength : strength +]
 
-Brian Griffin
+Brian
 Dissatisfaction: [+ brian_dissent : dissent +]
 Influence: [+ brian_strength : strength +]
 
-Chris Griffin
+Chris
 Dissatisfaction: [+ chris_dissent : dissent +]
 Influence: [+ chris_strength : strength +]
 
-Meg Griffin
+Meg
 Dissatisfaction: [+ meg_dissent : dissent +]
 Influence: [+ meg_strength : strength +]
 
-Stewie Griffin
+Stewie
 Dissatisfaction: [+ stewie_dissent : dissent +]
 Influence: [+ stewie_strength : strength +]
