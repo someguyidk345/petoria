@@ -14,13 +14,13 @@ Independence was Peter's idea, but the whole household has to live with it. A li
 - @stewie_investment: Give Stewie resources for a national project.
 
 @lois_compromise
-on-arrival: month_actions += 1; household_cohesion += 8; family_satisfaction.lois += 8; family_satisfaction.peter -= 2; petoria_treasury -= 1
+on-arrival: {! month_actions += 1; household_cohesion += 8; family_satisfaction.lois += 8; family_satisfaction.peter -= 2; petoria_treasury -= 1; !}
 Lois agrees to help organize daily life, provided the government remembers that a country still needs to be a home.
 
 @peter_promise
-on-arrival: month_actions += 1; public_image += 5; family_satisfaction.peter += 6; household_cohesion += 2; family_grievances.lois += 2
+on-arrival: {! month_actions += 1; public_image += 5; family_satisfaction.peter += 6; household_cohesion += 2; family_grievances.lois += 2; !}
 Peter announces that the family stands united. The announcement is more convincing than the meeting that produced it.
 
 @stewie_investment
-on-arrival: month_actions += 1; state_capacity += 5; family_satisfaction.stewie += 8; petoria_treasury -= 2; household_cohesion -= 2
+on-arrival: {! month_actions += 1; state_capacity += 5; family_satisfaction.stewie += 8; petoria_treasury -= 2; household_cohesion -= 2; !}
 Stewie receives a modest budget for research. The results are promising, and the accounting is already difficult to explain.
