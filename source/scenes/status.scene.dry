@@ -20,9 +20,13 @@ Brian Griffin
 Dissatisfaction: [+ brian_dissent : dissent +]
 Influence: [+ brian_strength : strength +]
 
-Chris and Meg Griffin
-Dissatisfaction: [+ chrisandmeg_dissent : dissent +]
-Influence: [+ chrisandmeg_strength : strength +]
+Chris Griffin
+Dissatisfaction: [+ chris_dissent : dissent +]
+Influence: [+ chris_strength : strength +]
+
+Meg Griffin
+Dissatisfaction: [+ meg_dissent : dissent +]
+Influence: [+ meg_strength : strength +]
 
 Stewie Griffin
 Dissatisfaction: [+ stewie_dissent : dissent +]
