@@ -4,7 +4,7 @@ is-special: true
 
 = Main
 
-Internal dissent: [+ dissent_percent : dissent +]%
+Internal dissent: [+ dissent_percent : dissent +]
 
 Family unity: [+ family_unity +]%
 
