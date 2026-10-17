@@ -2,6 +2,7 @@ title: Lois
 is-pinned-card: true
 tags: advisor
 view-if: lois_advisor = 1
+card-image: img/advisor_lois.jpg
 new-page: true
 
 = Lois
@@ -29,4 +30,3 @@ on-arrival: month_actions = 1; lois_strength += 3; chris_dissent -= 4; stewie_di
 Influence +3; Chris dissatisfaction −4; Stewie dissatisfaction +2.
 
 - @root: Return to main
-
