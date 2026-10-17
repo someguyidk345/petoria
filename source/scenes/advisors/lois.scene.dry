@@ -1,10 +1,32 @@
 title: Lois
 is-pinned-card: true
 tags: advisor
+view-if: lois_advisor = 1
 new-page: true
 
 = Lois
 
-Placeholder advisor.
+- @household_compromise
+- @set_expectations
+- @root: Return to main
+
+@household_compromise
+title: Household compromise
+subtitle: Strengthen Lois's influence and ease tension with Peter.
+choose-if: month_actions = 0
+on-arrival: month_actions = 1; lois_strength += 4; lois_dissent -= 8; peter_dissent -= 2
+
+Influence +4; Lois dissatisfaction −8; Peter dissatisfaction −2.
 
 - @root: Return to main
+
+@set_expectations
+title: Set clear expectations
+subtitle: Reduce Chris's dissatisfaction, while Stewie resists.
+choose-if: month_actions = 0
+on-arrival: month_actions = 1; lois_strength += 3; chris_dissent -= 4; stewie_dissent += 2
+
+Influence +3; Chris dissatisfaction −4; Stewie dissatisfaction +2.
+
+- @root: Return to main
+
