@@ -2,6 +2,7 @@ title: Brian
 is-pinned-card: true
 tags: advisor
 view-if: brian_advisor = 1
+card-image: img/advisor_brian.jpg
 new-page: true
 
 = Brian
@@ -29,4 +30,3 @@ on-arrival: month_actions = 1; brian_dissent -= 5; peter_dissent -= 3; lois_diss
 Brian dissatisfaction −5; Peter dissatisfaction −3; Lois dissatisfaction −3.
 
 - @root: Return to main
-
