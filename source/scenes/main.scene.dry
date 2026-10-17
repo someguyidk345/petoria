@@ -2,7 +2,9 @@ title: Petoria — State Affairs
 set-bg: img/map_2.jpg
 is-hand: true
 max-cards: 4
-on-arrival: Q.pinnedCardsDescription = 'Family advisors — each action advances one month.'
+on-arrival: {!
+Q.pinnedCardsDescription = 'Family advisors — each action advances one month.';
+!}
 
 = Family
 
