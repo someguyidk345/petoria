@@ -3,18 +3,53 @@ set-bg: img/map_2.jpg
 is-hand: true
 max-cards: 4
 
-#Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
+= Family
 
+Internal dissent: [+ dissent_percent +]%
+Family unity: [+ family_unity +]%
 
+Peter — Influence: [+ peter_strength +] — Dissatisfaction: [+ peter_dissent +]%
+- @advisors.peter: Peter's advisor
 
+Lois — Influence: [+ lois_strength +] — Dissatisfaction: [+ lois_dissent +]%
+- @advisors.lois: Lois's advisor
+
+Brian — Influence: [+ brian_strength +] — Dissatisfaction: [+ brian_dissent +]%
+- @advisors.brian: Brian's advisor
+
+Chris — Influence: [+ chris_strength +] — Dissatisfaction: [+ chris_dissent +]%
+- @advisors.chris: Chris's advisor
+
+Meg — Influence: [+ meg_strength +] — Dissatisfaction: [+ meg_dissent +]%
+- @advisors.meg: Meg's advisor
+
+Stewie — Influence: [+ stewie_strength +] — Dissatisfaction: [+ stewie_dissent +]%
+- @advisors.stewie: Stewie's advisor
 
 @main_easy
 set-bg: img/map_2.jpg
 is-hand: true
 max-cards: 4
 
-#Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
+= Family
 
+Internal dissent: [+ dissent_percent +]%
+Family unity: [+ family_unity +]%
 
+Peter — Influence: [+ peter_strength +] — Dissatisfaction: [+ peter_dissent +]%
+- @advisors.peter: Peter's advisor
 
+Lois — Influence: [+ lois_strength +] — Dissatisfaction: [+ lois_dissent +]%
+- @advisors.lois: Lois's advisor
 
+Brian — Influence: [+ brian_strength +] — Dissatisfaction: [+ brian_dissent +]%
+- @advisors.brian: Brian's advisor
+
+Chris — Influence: [+ chris_strength +] — Dissatisfaction: [+ chris_dissent +]%
+- @advisors.chris: Chris's advisor
+
+Meg — Influence: [+ meg_strength +] — Dissatisfaction: [+ meg_dissent +]%
+- @advisors.meg: Meg's advisor
+
+Stewie — Influence: [+ stewie_strength +] — Dissatisfaction: [+ stewie_dissent +]%
+- @advisors.stewie: Stewie's advisor
