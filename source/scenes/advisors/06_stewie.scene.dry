@@ -2,6 +2,7 @@ title: Stewie
 is-pinned-card: true
 tags: advisor
 view-if: stewie_advisor = 1
+card-image: img/advisor_stewie.jpg
 new-page: true
 
 = Stewie
@@ -29,4 +30,3 @@ on-arrival: month_actions = 1; stewie_dissent -= 10; chris_dissent += 2; lois_di
 Stewie dissatisfaction −10; Chris dissatisfaction +2; Lois dissatisfaction −2.
 
 - @root: Return to main
-
