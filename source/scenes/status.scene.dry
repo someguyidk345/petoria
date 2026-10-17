@@ -12,8 +12,6 @@ Internal dissent: [+ dissent_percent : dissent +]%
 
 Family unity: [+ family_unity : percent +]%
 
-= Family
-
 Peter Griffin
 Dissatisfaction: [+ peter_dissent : dissent +]
 Influence: [+ peter_strength : strength +]
