@@ -1,4 +1,4 @@
-title: Next month
+title: Petoria — State Affairs
 set-bg: img/map_2.jpg
 is-hand: true
 on-arrival: {!
@@ -14,7 +14,7 @@ max-cards: 4
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
-[? if year = 1928 and month = 2 : The current bourgeois-right government has fallen. The next elections are slated for May of this year. ?]
+
 
 - @party
 - @govt
@@ -37,7 +37,7 @@ max-cards: 4
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
-[? if year = 1928 and month = 2 : The current bourgeois-right government has fallen. The next elections are slated for May of this year. ?]
+
 
 - @party
 - @govt
@@ -46,16 +46,17 @@ max-cards: 4
 
 
 @party
-title: Party Affairss
-card-image: img/Vorwaerts_nr_1.png
+title: Family Affairs
+card-image: img/map_2.jpg
 is-deck: true
 
-- #party_affairs
+- #family_affairs
 
 @govt
-title: Government Affairs
+title: State and Foreign Affairs
 view-if: time >= 6
-card-image: img/reichstag_2.jpg
+card-image: img/map_2.jpg
 is-deck: true
 
-- #govt_affairs
+- #state_affairs
+- #foreign_affairs
