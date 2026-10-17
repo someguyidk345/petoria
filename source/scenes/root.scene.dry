@@ -48,8 +48,7 @@ Q.brian_dissent = 5;
 Q.stewie_strength = 5;
 Q.stewie_dissent = 10;
 
-Q.timers = ['advisor_action'];
-Q.advisor_action_timer = 0;
+Q.timers = [];
 
 // All six family members are available as pinned advisor cards.
 Q.peter_advisor = 1;
