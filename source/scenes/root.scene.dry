@@ -32,15 +32,17 @@ Q.starting_resources = 2;
 
 Q.dissent = 0;
 Q.dissent_percent = 0;
-Q.factions = ['peter', 'lois', 'brian', 'chrisandmeg', 'stewie'];
+Q.factions = ['peter', 'lois', 'brian', 'chris', 'meg', 'stewie'];
 Q.family_unity = 100;
 
 Q.peter_strength = 30;
 Q.peter_dissent = 0;
 Q.lois_strength = 25;
 Q.lois_dissent = 10;
-Q.chrisandmeg_strength = 15;
-Q.chrisandmeg_dissent = 5;
+Q.chris_strength = 8;
+Q.chris_dissent = 5;
+Q.meg_strength = 7;
+Q.meg_dissent = 5;
 Q.brian_strength = 25;
 Q.brian_dissent = 5;
 Q.stewie_strength = 5;
