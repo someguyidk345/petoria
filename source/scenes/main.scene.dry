@@ -7,8 +7,6 @@ max-cards: 4
 
 
 
-- @party
-- @govt
 
 @main_easy
 set-bg: img/map_2.jpg
@@ -19,21 +17,4 @@ max-cards: 4
 
 
 
-- @party
-- @govt
 
-
-@party
-title: Family Affairs
-card-image: img/map_2.jpg
-is-deck: true
-
-- #family_affairs
-
-@govt
-title: State and Foreign Affairs
-card-image: img/map_2.jpg
-is-deck: true
-
-- #state_affairs
-- #foreign_affairs
