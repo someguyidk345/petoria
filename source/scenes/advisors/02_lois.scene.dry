@@ -7,26 +7,26 @@ new-page: true
 
 = Lois
 
-- @household_compromise
-- @set_expectations
+- @use_credit_card
+- @buy_groceries
 - @root: Return to main
 
-@household_compromise
-title: Household compromise
-subtitle: Strengthen Lois's influence and ease tension with Peter.
+@use_credit_card
+title: Emergency Fundraising
+subtitle: Use the credit card to acquire more resources. Its like free money! +2 Resources
 choose-if: month_actions = 0
-on-arrival: month_actions = 1; lois_strength += 4; lois_dissent -= 8; peter_dissent -= 2
+on-arrival: month_actions = 1; resources += 2; lois_dissent += 5;
 
-Influence +4; Lois dissatisfaction −8; Peter dissatisfaction −2.
+Peter takes the credit card while Lois is sleeping and withdraws money. Unfortunately, she is an opponent of Modern Monetary Theory despite Peter's explanations. Peter sleeps on the couch for a few nights
 
 - @root: Return to main
 
-@set_expectations
-title: Set clear expectations
-subtitle: Reduce Chris's dissatisfaction, while Stewie resists.
+@buy_groceries
+title: Go Grocery Shopping
+subtitle: Lois can get more groceries in Quahog. Reduces dissent but costs 1 resource.
 choose-if: month_actions = 0
-on-arrival: month_actions = 1; lois_strength += 3; chris_dissent -= 4; stewie_dissent += 2
+on-arrival: month_actions = 1; resources -= 1; lois_dissent -= 5; chris_dissent -= 5; meg_dissent -= 5; brian_dissent -= 5; stewie_dissent -= 5; peter_dissent += 5;
 
-Influence +3; Chris dissatisfaction −4; Stewie dissatisfaction +2.
+Lois goes grocery shopping, everyone's happy to have the kitchen restocked, except Peter, who says 'reliance on imports undermines his ambitions for Autarky.'
 
 - @root: Return to main
