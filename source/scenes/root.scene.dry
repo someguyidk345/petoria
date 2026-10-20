@@ -24,7 +24,7 @@ Q.month_actions = 0;
 
 Q.difficulty = 0;
 Q.hand_size = 3;
-Q.annual_income = 0;
+Q.annual_income = 2;
 Q.saves_disabled = 0;
 Q.discard_disabled = 0;
 Q.resources = 2;
