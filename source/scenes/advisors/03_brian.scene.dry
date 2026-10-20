@@ -15,7 +15,7 @@ new-page: true
 title: Write a public statement
 subtitle: Strengthen Brian's influence, while Peter dislikes the attention.
 choose-if: advisor_action_timer = 0
-on-arrival: month_actions = 1; brian_strength += 4; brian_dissent -= 8; peter_dissent += 2
+on-arrival: month_actions = 1; brian_strength += 4; brian_dissent -= 8; peter_dissent += 2; advisor_action_timer = 6;
 
 Influence +4; Brian dissatisfaction −8; Peter dissatisfaction +2.
 
@@ -25,7 +25,7 @@ Influence +4; Brian dissatisfaction −8; Peter dissatisfaction +2.
 title: Mediate a dispute
 subtitle: Reduce dissatisfaction among Peter and Lois.
 choose-if: advisor_action_timer = 0
-on-arrival: month_actions = 1; brian_dissent -= 5; peter_dissent -= 3; lois_dissent -= 3
+on-arrival: month_actions = 1; brian_dissent -= 5; peter_dissent -= 3; lois_dissent -= 3; advisor_action_timer = 6;
 
 Brian dissatisfaction −5; Peter dissatisfaction −3; Lois dissatisfaction −3.
 
