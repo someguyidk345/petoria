@@ -36,9 +36,9 @@ Stewie
 Dissatisfaction: [+ stewie_dissent : dissent +]
 Influence: [+ stewie_strength : strength +]
 
-= Relations
+@relations
 
-Neighborhood Relations:
+= Neighborhood Relations:
 
 Quagmire: [+ quagmire_relation : relationships +]
 Cleveland: [+ cleveland_relation : relationships +]
