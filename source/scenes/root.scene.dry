@@ -55,7 +55,11 @@ Q.neighbors = ['quagmire', 'joe', 'cleveland', 'ernie']
 Q.quagmire_relation = 60;
 Q.joe_relation = 50;
 Q.cleveland_relation = 60;
-Q.ernie_relation = 10;
+Q.ernie_relation = 0;
+
+Q.foreign_recognition = 0;
+Q.usa_relation = 50;
+Q.iraq_relation = 50;
 
 // All six family members are available as pinned advisor cards.
 Q.peter_advisor = 1;
