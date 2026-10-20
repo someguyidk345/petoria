@@ -65,6 +65,8 @@ Q.peter_job = 1;
 
 Q.stewie_language = 0;
 
+Q.volcano_insurance = 0;
+
 // All six family members are available as pinned advisor cards.
 Q.peter_advisor = 1;
 Q.lois_advisor = 1;
