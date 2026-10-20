@@ -3,7 +3,7 @@ set-bg: img/background.jpg
 is-hand: true
 max-cards: 4
 on-arrival: {!
-Q.pinnedCardsDescription = 'Family advisors — each action advances one month.';
+Q.pinnedCardsDescription = 'Advisors — each action advances one month.';
 !}
 
 - @petoria_affairs
@@ -14,7 +14,7 @@ set-bg: img/background.jpg
 is-hand: true
 max-cards: 4
 on-arrival: {!
-Q.pinnedCardsDescription = 'Family advisors — each action advances one month.';
+Q.pinnedCardsDescription = 'Advisors — each action advances one month.';
 !}
 
 - @petoria_affairs
