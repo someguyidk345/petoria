@@ -40,8 +40,8 @@ jobs:
         run: npm run dendrynexus make-html -- --pretty
       - name: Copy game.json to output
         run: cp out/game.json out/html/
-      - name: Copy images to output
-        run: cp -r img out/html/img
+      - name: Copy images and music to output
+        run: cp -r img out/html/img && cp -r music out/html/music
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
