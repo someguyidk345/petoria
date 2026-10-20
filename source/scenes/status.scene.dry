@@ -38,9 +38,13 @@ Influence: [+ stewie_strength : strength +]
 
 @relations
 
-= Neighborhood Relations:
+= Neighborhood Relations
 
 Quagmire: [+ quagmire_relation : relationships +]
+
 Cleveland: [+ cleveland_relation : relationships +]
+
 Joe: [+ joe_relation : relationships +]
+
 Ernie the Chicken: [+ ernie_relation : relationships +]
+
