@@ -14,7 +14,7 @@ new-page: true
 @work
 title: Work Overtime
 subtitle: Work an extra shift at the factory to raise money. +2 Resources
-choose-if: advisor_action_timer = 0 and peter_job = 1;
+choose-if: advisor_action_timer = 0 and peter_job == 1
 on-arrival: month_actions = 1; peter_dissent += 5; resources += 2; lois_dissent -= 2; advisor_action_timer = 6;
 
 Peter works overtime at his job to bolster the treasury. He loathes sending good Petorian jobs oversees.
