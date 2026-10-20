@@ -51,6 +51,12 @@ Q.stewie_dissent = 10;
 Q.timers = ['advisor_action'];
 Q.advisor_action_timer = 0;
 
+Q.neighbors = ['quagmire', 'joe', 'cleveland', 'ernie']
+Q.quagmire_relation = 60;
+Q.joe_relation = 50;
+Q.cleveland_relation = 60;
+Q.ernie_relation = 10;
+
 // All six family members are available as pinned advisor cards.
 Q.peter_advisor = 1;
 Q.lois_advisor = 1;
