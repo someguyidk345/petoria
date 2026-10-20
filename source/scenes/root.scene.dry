@@ -71,7 +71,7 @@ new-page: true
 @petoria_main
 new-page: true
 go-to: main if hand_size == 3; main.main_easy if hand_size == 4
-audio: shuffle music/ItSeemsToday.mp3 music/CantTouchMe.mp3 music/Story.mp3 music/SayHi.mp3
+audio: shuffle music/ItSeemsToday.mp3 music/CantTouchMe.mp3 music/Story.mp3 music/SayHi.mp3 music/DownSyndrome.mp3 music/Shipoopi.mp3
 
 = July 2000
 
