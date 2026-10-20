@@ -11,22 +11,22 @@ new-page: true
 - @family_compromise
 - @root: Return to main
 
-@take_charge
-title: Take charge
-subtitle: Increase Peter's influence and reduce his dissatisfaction.
-choose-if: advisor_action_timer = 0
-on-arrival: month_actions = 1; peter_strength += 5; peter_dissent -= 8; lois_dissent += 2; advisor_action_timer = 6;
+@work
+title: Work Overtime
+subtitle: Work an extra shift at the factory to raise money. +2 Resources
+choose-if: advisor_action_timer = 0; peter_job = 1;
+on-arrival: month_actions = 1; peter_dissent += 5; resources += 2; lois_dissent -= 2; advisor_action_timer = 6;
 
-Influence +5; dissatisfaction −8; Lois dissatisfaction +2.
+Peter works overtime at his job to bolster the treasury. He loathes sending good Petorian jobs oversees.
 
 - @root: Return to main
 
-@family_compromise
-title: Family compromise
-subtitle: Reduce Peter's dissatisfaction by making a compromise.
+@diplomatic_mission
+title: Diplomatic Mission to Quahog
+subtitle: Spend a night at the Clam to improve foreign relations. -1 Resource
 choose-if: advisor_action_timer = 0
-on-arrival: month_actions = 1; peter_dissent -= 5; lois_dissent -= 3; meg_dissent += 1; advisor_action_timer = 6;
+on-arrival: month_actions = 1; resources -= 1; peter_dissent -= 3; lois_dissent += 3; quagmire_relation += 3; joe_relation += 3; cleveland_relation += 3; advisor_action_timer = 6;
 
-Peter dissatisfaction −5; Lois dissatisfaction −3; Meg dissatisfaction +1.
+Peter gets wasted with his friends at the Clam. Petoria's image improves among his neighbors.
 
 - @root: Return to main
