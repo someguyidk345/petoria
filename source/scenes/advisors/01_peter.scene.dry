@@ -15,7 +15,7 @@ new-page: true
 title: Take charge
 subtitle: Increase Peter's influence and reduce his dissatisfaction.
 choose-if: advisor_action_timer = 0
-on-arrival: month_actions = 1; peter_strength += 5; peter_dissent -= 8; lois_dissent += 2
+on-arrival: month_actions = 1; peter_strength += 5; peter_dissent -= 8; lois_dissent += 2; advisor_action_timer = 6;
 
 Influence +5; dissatisfaction −8; Lois dissatisfaction +2.
 
@@ -25,7 +25,7 @@ Influence +5; dissatisfaction −8; Lois dissatisfaction +2.
 title: Family compromise
 subtitle: Reduce Peter's dissatisfaction by making a compromise.
 choose-if: advisor_action_timer = 0
-on-arrival: month_actions = 1; peter_dissent -= 5; lois_dissent -= 3; meg_dissent += 1
+on-arrival: month_actions = 1; peter_dissent -= 5; lois_dissent -= 3; meg_dissent += 1; advisor_action_timer = 6;
 
 Peter dissatisfaction −5; Lois dissatisfaction −3; Meg dissatisfaction +1.
 
