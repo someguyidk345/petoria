@@ -51,8 +51,6 @@ Q.stewie_dissent = 10;
 Q.timers = ['advisor_action'];
 Q.advisor_action_timer = 0;
 
-audio: shuffle music/ItSeemsToday.mp3
-
 // All six family members are available as pinned advisor cards.
 Q.peter_advisor = 1;
 Q.lois_advisor = 1;
@@ -73,7 +71,7 @@ new-page: true
 @petoria_main
 new-page: true
 go-to: main if hand_size == 3; main.main_easy if hand_size == 4
-//audio: shuffle music/ItSeemsToday.mp3
+audio: shuffle music/ItSeemsToday.mp3
 
 = July 2000
 
