@@ -73,7 +73,7 @@ new-page: true
 @petoria_main
 new-page: true
 go-to: main if hand_size == 3; main.main_easy if hand_size == 4
-audio: shuffle music/ItSeemsToday.mp3
+//audio: shuffle music/ItSeemsToday.mp3
 
 = July 2000
 
