@@ -48,3 +48,10 @@ Joe: [+ joe_relation : relationships +]
 
 Ernie the Chicken: [+ ernie_relation : relationships +]
 
+=Foreign Affairs
+
+Foreign Recognition: [+ foreign_recognition: recognition +]
+
+USA: [+ usa_relation : relationships +]
+
+Iraq: [+ iraq_relation : relationships +]
