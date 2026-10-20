@@ -61,7 +61,9 @@ Q.foreign_recognition = 0;
 Q.usa_relation = 50;
 Q.iraq_relation = 50;
 
-Q.peter_job =1;
+Q.peter_job = 1;
+
+Q.stewie_language = 0;
 
 // All six family members are available as pinned advisor cards.
 Q.peter_advisor = 1;
