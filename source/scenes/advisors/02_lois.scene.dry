@@ -14,7 +14,7 @@ new-page: true
 @use_credit_card
 title: Emergency Fundraising
 subtitle: Use the credit card to acquire more resources. Its like free money! +2 Resources
-choose-if: month_actions = 0
+choose-if: advisor_action_timer = 0
 on-arrival: month_actions = 1; resources += 2; lois_dissent += 5;
 
 Peter takes the credit card while Lois is sleeping and withdraws money. Unfortunately, she is an opponent of Modern Monetary Theory despite Peter's explanations. Peter sleeps on the couch for a few nights
