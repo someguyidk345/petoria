@@ -15,7 +15,7 @@ new-page: true
 title: Recognize Meg's contribution
 subtitle: Increase Meg's influence and reduce her dissatisfaction.
 choose-if: advisor_action_timer = 0
-on-arrival: month_actions = 1; meg_strength += 5; meg_dissent -= 10; lois_dissent -= 2
+on-arrival: month_actions = 1; meg_strength += 5; meg_dissent -= 10; lois_dissent -= 2; advisor_action_timer = 6;
 
 Influence +5; Meg dissatisfaction −10; Lois dissatisfaction −2.
 
@@ -25,7 +25,7 @@ Influence +5; Meg dissatisfaction −10; Lois dissatisfaction −2.
 title: Support Meg's independence
 subtitle: Reduce Meg's dissatisfaction, though Peter objects.
 choose-if: advisor_action_timer = 0
-on-arrival: month_actions = 1; meg_strength += 3; meg_dissent -= 8; peter_dissent += 2
+on-arrival: month_actions = 1; meg_strength += 3; meg_dissent -= 8; peter_dissent += 2; advisor_action_timer = 6;
 
 Influence +3; Meg dissatisfaction −8; Peter dissatisfaction +2.
 
