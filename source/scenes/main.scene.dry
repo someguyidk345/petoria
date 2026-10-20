@@ -3,7 +3,13 @@ set-bg: img/background.jpg
 is-hand: true
 max-cards: 4
 on-arrival: {!
-Q.pinnedCardsDescription = 'Advisors — each action advances one month.';
+if (Q.advisor_action_timer <= 0) {
+    Q.pinnedCardsDescription = 'Advisors - an action is available.';
+} else if (Q.advisor_action_timer == 1) {
+    Q.pinnedCardsDescription = 'Advisors - next action available in 1 month.';
+} else {
+    Q.pinnedCardsDescription = 'Advisors - next action available in ' + Q.advisor_action_timer + ' months.';
+}
 !}
 
 - @petoria_affairs
