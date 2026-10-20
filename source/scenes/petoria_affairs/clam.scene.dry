@@ -1,1 +1,36 @@
+title: A Night Out
+new-page: true
+on-arrival: month_actions += 1
+max-visits: 36
+is-card: true
+card-image: img/friends.jpg
+frequency: 100
+tags: petoria_affairs
 
+= A Night Out
+
+"Alright Lois, I'm heading out, I have a Diplomatic Mission to the Drunken Clam."
+
+"But Peter, my parents are coming over tonight, remember?"
+
+"Oh relax Lois, if it was that important then surely you would have said something before now"
+
+"I've been telling you for three weeks"
+
+
+@go_out
+@do_not
+
+@go_out
+title: Go Anyway
+subtitle: "Look I'll only be out for an hour tops, I'll be back before your parents even arrive"
+on-arrival: peter_dissent -= 5; lois_dissent += 5; quagmire_relation += 5; joe_relation += 5; cleveland_relation += 5;
+
+Peter arrives at the Clam. He is greeted by his friends, and makes sure to explain that he cannot be out late. After a few drinks however, they have all forgotten the time. Peter returns home, wasted, at one in the morning. Lois does not speak to him the next day.
+
+@do_not
+title: Stay
+subtitle: "Well, alright, I can stay home for tonight I suppose"
+on-arrival: lois_dissent -= 2;
+
+The night goes fine. Lois's father, Carter, berates Peter as usual but it's nothing he's not used to. At around 8 P.M., Peter catches a glance of his friends outside the window, and feels a deep sense of longing.
