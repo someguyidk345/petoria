@@ -48,11 +48,6 @@ Q.brian_dissent = 5;
 Q.stewie_strength = 5;
 Q.stewie_dissent = 10;
 
-Q.timers = ['advisor_action'];
-Q.advisor_action_timer = 0;
-
-audio: shuffle music/ItSeemsToday.mp3
-
 // All six family members are available as pinned advisor cards.
 Q.peter_advisor = 1;
 Q.lois_advisor = 1;
@@ -63,6 +58,11 @@ Q.stewie_advisor = 1;
 !}
 set-bg: img/map_2.jpg
 new-page: true
+
+Q.timers = ['advisor_action'];
+Q.advisor_action_timer = 0;
+
+audio: shuffle music/ItSeemsToday.mp3
 
 > *“The unanimous Declaration of the sovereign state of Petoria, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.”*
 
