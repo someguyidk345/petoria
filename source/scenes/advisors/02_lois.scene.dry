@@ -15,7 +15,7 @@ new-page: true
 title: Emergency Fundraising
 subtitle: Use the credit card to acquire more resources. Its like free money! +2 Resources
 choose-if: advisor_action_timer = 0
-on-arrival: month_actions = 1; resources += 2; lois_dissent += 5;
+on-arrival: month_actions = 1; resources += 2; lois_dissent += 5; advisor_action_timer = 6;
 
 Peter takes the credit card while Lois is sleeping and withdraws money. Unfortunately, she is an opponent of Modern Monetary Theory despite Peter's explanations. Peter sleeps on the couch for a few nights
 
@@ -25,7 +25,7 @@ Peter takes the credit card while Lois is sleeping and withdraws money. Unfortun
 title: Go Grocery Shopping
 subtitle: Lois can get more groceries in Quahog. Reduces dissent but costs 1 resource.
 choose-if: advisor_action_timer = 0
-on-arrival: month_actions = 1; resources -= 1; lois_dissent -= 5; chris_dissent -= 5; meg_dissent -= 5; brian_dissent -= 5; stewie_dissent -= 5; peter_dissent += 5;
+on-arrival: month_actions = 1; resources -= 1; lois_dissent -= 5; chris_dissent -= 5; meg_dissent -= 5; brian_dissent -= 5; stewie_dissent -= 5; peter_dissent += 5; advisor_action_timer = 6;
 
 Lois goes grocery shopping, everyone's happy to have the kitchen restocked, except Peter, who says 'reliance on imports undermines his ambitions for Autarky.'
 
