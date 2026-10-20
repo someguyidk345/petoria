@@ -14,7 +14,7 @@ new-page: true
 @give_responsibility
 title: Give Chris responsibility
 subtitle: Increase Chris's influence and reduce his dissatisfaction.
-choose-if: month_actions = 0
+choose-if: advisor_action_timer = 0
 on-arrival: month_actions = 1; chris_strength += 4; chris_dissent -= 10; lois_dissent -= 2
 
 Influence +4; Chris dissatisfaction −10; Lois dissatisfaction −2.
@@ -24,7 +24,7 @@ Influence +4; Chris dissatisfaction −10; Lois dissatisfaction −2.
 @build_confidence
 title: Build Chris's confidence
 subtitle: Help Chris and Meg feel more supported.
-choose-if: month_actions = 0
+choose-if: advisor_action_timer = 0
 on-arrival: month_actions = 1; chris_strength += 2; chris_dissent -= 6; meg_dissent -= 2
 
 Influence +2; Chris dissatisfaction −6; Meg dissatisfaction −2.
