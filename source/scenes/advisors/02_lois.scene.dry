@@ -24,7 +24,7 @@ Peter takes the credit card while Lois is sleeping and withdraws money. Unfortun
 @buy_groceries
 title: Go Grocery Shopping
 subtitle: Lois can get more groceries in Quahog. Reduces dissent but costs 1 resource.
-choose-if: month_actions = 0
+choose-if: advisor_action_timer = 0
 on-arrival: month_actions = 1; resources -= 1; lois_dissent -= 5; chris_dissent -= 5; meg_dissent -= 5; brian_dissent -= 5; stewie_dissent -= 5; peter_dissent += 5;
 
 Lois goes grocery shopping, everyone's happy to have the kitchen restocked, except Peter, who says 'reliance on imports undermines his ambitions for Autarky.'
