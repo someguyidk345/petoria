@@ -7,9 +7,18 @@ new-page: true
 
 = Stewie
 
+- @understand
 - @fund_project
 - @keep_occupied
 - @root: Return to main
+
+@understand
+title: Try to Understand Stewie
+subtitle: Sometimes, Stewie can speak to people, such as Brian, but Peter and Lois have no idea what he is saying. Let's try to fix this
+choose-if: advisor_action_timer = 0 and stewie_language < 6
+on-arrival: month_actions = 1; stewie_language += 1;
+
+Peter spends some time talking to Stewie, but with little luck.
 
 @fund_project
 title: Fund a new project
