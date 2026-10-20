@@ -14,7 +14,7 @@ new-page: true
 @public_statement
 title: Write a public statement
 subtitle: Strengthen Brian's influence, while Peter dislikes the attention.
-choose-if: month_actions = 0
+choose-if: advisor_action_timer = 0
 on-arrival: month_actions = 1; brian_strength += 4; brian_dissent -= 8; peter_dissent += 2
 
 Influence +4; Brian dissatisfaction −8; Peter dissatisfaction +2.
@@ -24,7 +24,7 @@ Influence +4; Brian dissatisfaction −8; Peter dissatisfaction +2.
 @mediate_dispute
 title: Mediate a dispute
 subtitle: Reduce dissatisfaction among Peter and Lois.
-choose-if: month_actions = 0
+choose-if: advisor_action_timer = 0
 on-arrival: month_actions = 1; brian_dissent -= 5; peter_dissent -= 3; lois_dissent -= 3
 
 Brian dissatisfaction −5; Peter dissatisfaction −3; Lois dissatisfaction −3.
