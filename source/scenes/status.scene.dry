@@ -4,6 +4,10 @@ is-special: true
 
 = Main
 
+[+ month : month +] [+ year +]
+
+Resources available: [+ resources +]
+
 Internal dissent: [+ dissent_percent : dissent +]
 
 Family unity: [+ family_unity +]%
