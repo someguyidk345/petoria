@@ -77,3 +77,5 @@ Due to a technicality, the Griffin Residence was found not to be part of the con
 
 Q.timers = ['advisor_action'];
 Q.advisor_action_timer = 0;
+
+audio: shuffle music/ItSeemsToday.mp3
