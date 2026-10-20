@@ -1,0 +1,44 @@
+title: Volcano Insurance
+new-page: true
+on-arrival: month_actions += 1
+max-visits: 1
+is-card: true
+card-image: img/volcano_ins.jpg
+frequency: 50
+tags: petoria_affairs
+
+= Volcano Insurance
+
+"You see Chris" Peter starts explaining, until he is cut off by a knock on the door. Behind it is a salesman, clad in a green and pink checkered suit, with the widest smile known to man.
+
+  "Hello sir, well I was here to sell you handsome cream but it looks to me like you already have plenty. So how about I interest you in something every home owner cannot go without: Volcano insurance"
+
+  "Volcano insurance? Do we even have volcanos?"
+
+  "Well I have an uncle who's a *real* whiz with Volcanos, and he says one is coming this way! Besides, don't you think we're overdo for one?"
+
+  "Well it sounds pretty serious, but we're low on cash at the moment."
+
+  "What about that jar of money there?"
+
+  "No way, thats Lois's rany day fund!"
+
+  "Oh come on, it never rains in Rhode Island."
+
+
+- @purchase
+- @do_not
+
+@purchase
+title: Buy Insurance, -2 Resources
+subtitle: "Touche salesman, well you have a deal"
+on-arrival: lois_dissent -= 5; resources -= 2; volcano_insurance += 1;
+
+Peter gives the jar of money to the salesman, and receives an insurance card. Apparently, this guy is legit, and Brian is able to verify that he is with a reputable company. It remains to be seen how useful this will be, however
+
+@do_not
+title: Do Not
+subtitle: "Sorry I can't do that, what if I need more handsome cream?"
+on-arrival:
+
+The salesman leaves and is never seen again. This was obviously a scam, right?
