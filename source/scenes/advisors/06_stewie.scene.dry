@@ -15,7 +15,7 @@ new-page: true
 title: Fund a new project
 subtitle: Increase Stewie's influence and reduce his dissatisfaction, at Peter's expense.
 choose-if: advisor_action_timer = 0
-on-arrival: month_actions = 1; stewie_strength += 5; stewie_dissent -= 8; peter_dissent += 2
+on-arrival: month_actions = 1; stewie_strength += 5; stewie_dissent -= 8; peter_dissent += 2; advisor_action_timer = 6;
 
 Influence +5; Stewie dissatisfaction −8; Peter dissatisfaction +2.
 
@@ -25,7 +25,7 @@ Influence +5; Stewie dissatisfaction −8; Peter dissatisfaction +2.
 title: Keep Stewie occupied
 subtitle: Reduce Stewie's dissatisfaction, but Chris gets frustrated.
 choose-if: advisor_action_timer = 0
-on-arrival: month_actions = 1; stewie_dissent -= 10; chris_dissent += 2; lois_dissent -= 2
+on-arrival: month_actions = 1; stewie_dissent -= 10; chris_dissent += 2; lois_dissent -= 2; advisor_action_timer = 6;
 
 Stewie dissatisfaction −10; Chris dissatisfaction +2; Lois dissatisfaction −2.
 
