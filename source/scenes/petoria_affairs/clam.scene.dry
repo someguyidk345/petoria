@@ -18,8 +18,8 @@ tags: petoria_affairs
 "I've been telling you for three weeks"
 
 
-@go_out
-@do_not
+- @go_out
+- @do_not
 
 @go_out
 title: Go Anyway
