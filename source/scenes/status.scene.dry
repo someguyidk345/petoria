@@ -48,6 +48,8 @@ Joe: [+ joe_relation : relationships +]
 
 Ernie the Chicken: [+ ernie_relation : relationships +]
 
+Public Image: [+ public_image : recognition +]
+
 =Foreign Affairs
 
 Foreign Recognition: [+ foreign_recognition: recognition +]
